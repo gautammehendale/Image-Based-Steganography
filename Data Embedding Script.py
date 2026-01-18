@@ -1,8 +1,3 @@
-'''
-Author: Mason Edgar
-ECE 529 - Algorithm Project
-Image Steganography
-'''
 #------ External Libraries ------#
 import bitstring
 import numpy as np
@@ -40,5 +35,6 @@ def embed_encoded_data_into_DCT(encoded_bits, dct_blocks):
         converted_blocks.append(current_dct_block)
 
     if not(data_complete): raise ValueError("Data didn't fully embed into cover image!")
+
 
     return converted_blocks
