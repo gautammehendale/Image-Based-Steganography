@@ -1,8 +1,3 @@
-'''
-Author: Mason Edgar
-ECE 529 - Algorithm Project
-Image Steganography
-'''
 #------ External Libraries ------#
 import cv2
 import numpy as np
@@ -67,4 +62,5 @@ def split_image_into_8x8_blocks(image):
     return blocks
 
 #====================================================================================================#
+
 #====================================================================================================#
