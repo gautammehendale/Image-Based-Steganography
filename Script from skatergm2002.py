@@ -1,8 +1,3 @@
-'''
-Author: Mason Edgar
-ECE 529 - Algorithm Project
-Image Steganography
-'''
 #------ External Libraries ------#
 import cv2
 import struct
@@ -96,4 +91,5 @@ else:
     #     print("Extracted Message:")
     #     print(decoded_text)
     # except UnicodeDecodeError:
+
     #     print("Error: Failed to decode the extracted data as text.")
